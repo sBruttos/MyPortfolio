@@ -7,11 +7,10 @@ public class Main {
         UserDao userDao = DaoFactory.getInstance().getUserDao();
         User user = new User();
 
-        user.setName("Yaroslav");
+        user.setName("Nikita");
         user.setSurname("Kuzmenok");
-        user.setLogin("Yaric228@gmail.com");
-        user.setPassword("3twfggsarw");
-        user.setStatus("online");
+        user.setLogin("leonid2168@gmail.com");
+
 
         userDao.createUser(user);
     }
